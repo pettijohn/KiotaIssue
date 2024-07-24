@@ -1,0 +1,1 @@
+docker run -v $PWD/output:/app/output -v $PWD:/local mcr.microsoft.com/openapi/kiota generate --language csharp -n "Schwab.Trader" -d /local/openapi3.json -o /local/ --exclude-backward-compatible true --include-path /accounts 
