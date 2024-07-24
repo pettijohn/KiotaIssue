@@ -3232,7 +3232,12 @@
                     {
                         "$ref": "#/components/schemas/AccountsBaseInstrument"
                     }
-                ]
+                ],
+                "properties": {
+                    "ignoreme": {
+                        "type": "string"
+                    }
+                }
             },
             "AccountFixedIncome": {
                 "allOf": [
@@ -3260,7 +3265,12 @@
                     {
                         "$ref": "#/components/schemas/AccountsBaseInstrument"
                     }
-                ]
+                ],
+                "properties": {
+                    "ignoreme": {
+                        "type": "string"
+                    }
+                }
             },
             "AccountOption": {
                 "allOf": [
